@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Nuestra Boda!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <header class="encabezadoBoda">
+    <img src="/assets/images/pngwing.com.png" alt="Decoración vegetal" class="decoracion" />
+    <h2 class="nosCasamos">¡Nos casamos!</h2>
+    <h1 class="nombreNovios">Mariela</h1>
+    <h1 class="y">&</h1>
+    <h1 class="nombreNovios">Nicolás</h1>
+    
+    <div class="reproductor">
+      <span>Presiona el 🖤 para escuchar nuestra canción</span><br />
+      <div class="lineaDecorativa"></div>
+      <div class="controles">
+        <button id="playPauseBtn">
+          <img src="/assets/images/icons8-heart-64.png" alt="Descargar" width="30" />
+        </button>
+        <audio id="cancion" src="/assets/audio/Ruth B. - Dandelions (Lyrics) - 7clouds.mp3"></audio>
+      </div>
+    </div>
+  </header>
+
+  <div class="transicionImagen">
+    <img src="/assets/images/novios.png" alt="transición" />
+  </div>
+
+  <section class="section">
+    <div class="versiculo">
+      <p>
+        El amor nunca se da por vencido, jamás pierde la fe, siempre tiene esperanzas y se mantiene firme en toda circunstancia.
+      </p>
+      <h5 class="referenciaBiblica">
+        1 Corintios 13:7
+      </h5>
+    </div>
+    <div class="padres">
+      <div class="titulos">
+        <h3>
+          Con la bendicion de Dios y nuestro queridos padres
+        </h3>
+      </div>
+
+      <div class="nombrePadres">
+        <p class="subtituloPadres">
+          Padres de la Novia
+        </p>
+        <p class="nombres">
+          Teodoro Flores Chavarria
+          <br>
+          Ana Maria Alvarez
+        </p>
+      </div>
+
+      <div class="nombrePadres">
+        <p class="subtituloPadres">
+          Padres de la Novia
+        </p>
+        <p class="nombres">
+          Teodoro Flores Chavarria
+          <br>
+          Ana Maria Alvarez
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <div class="transicionImagen">
+    <img src="/assets/images/novios.png" alt="transición" />
+  </div>
+  
+  <section class="sectionFecha">
+    <div class="imgAnillos">
+      <img src="/assets/images/icons8-wedding-rings-64.png" alt="anillos">
+    </div>
+
+    
+    <div class="fechaBoda">
+      <div class="titulos">
+        <h3>
+          Tenemos el agrado de invitarlos a Nuestra Boda
+        </h3>
+      </div>
+      <img class="imgFechaBoda" src="/assets/images/fechaBoda.png" alt="fechaBoda">
+      <a class="botonAgendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MjFwb2VncWs4MGNyZ2JncHJ0NjlvcnY2ZGEgZmFtaWx5MDIyMjE2MjMzMzExODE4OTIwNTBAZw&tmsrc=family02221623331181892050%40group.calendar.google.com">
+        <div class="iconoCalendario">
+          <span class="numeroIcono">23</span>
+        </div>
+        <span class="textoBoton">Agendar fecha</span>
+      </a>
+    </div>
+
+  </section>
+  
+  <section class="contadorBoda">
+    <h2 class="titulos">Faltan...</h2>
+    <div id="cuentaRegresiva" class="contenedorContador">
+      <div><span id="dias">00</span><small>días</small></div>
+      <div><span id="horas">00</span><small>hs</small></div>
+      <div><span id="minutos">00</span><small>min</small></div>
+      <div><span id="segundos">00</span><small>seg</small></div>
+    </div>
+  </section>
+
+  <section class="section sectionIglesia">
+    <div class="imgIglesia">
+      <img src="/assets/images/icons8-church-80.png" alt="iglesia">
+    </div>
+    <div class="titulos">
+      <h3>
+        Ceremonia Religiosa
+      </h3>
+    </div>
+    <div class="textoIglesia">
+      <p>
+        Hora: 10:00 a.m. <br>
+        Iglesia Adventista del Séptimo Día <br>
+        Córdoba 778 - Las Heras
+      </p>
+    </div>
+    <a class="botonAgendar" target="_blank" href="https://maps.app.goo.gl/2rEetWuHxu4VBFYG9">
+      <div class="iconoCalendario">
+        <span class="numeroIcono">📍</span>
+      </div>
+      <span class="textoBoton">Ver Ubicacion</span>
+    </a>
+  </section>
+
+  <div class="transicionImagen">
+    <img src="/assets/images/novios.png" alt="transición" />
+  </div>
+
+  <footer>
+    Mariela & Nicolás - Boda 2025 | Desarrollado por Josue Flores
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

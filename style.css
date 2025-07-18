@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* outline: 1px dashed red; */
+}
+
+footer {
+    margin-top: 50px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #3a3a3a;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.decoracion {
+    width: 100%;
+    max-width: 600px;
+    margin: -25px auto -10px;
+    display: block;
+}
+
+.encabezadoBoda {
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+.nosCasamos {
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.encabezadoBoda .y {
+    font-size: 1.5em;
+    color: #aaa;
+    margin: 0;
+}
+
+.nombreNovios {
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    color: #50c878;
+    font-size: 3em;
+}
+
+.lineaDecorativa {
+    width: 50%;
+    height: 1px;
+    background-color: #a7d8be;
+    margin: 5% auto 5%;
+    opacity: 0.6;
+}
+
+.reproductor {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #444;
+    text-align: center;
+}
+
+.transicionImagen img {
+    display: block;
+    width: 100%;
+}
+
+.controles button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.controles button:hover {
+    transform: scale(1.2);
+}
+
+.section {
+    padding: 30px;
+    text-align: center;
+    margin: 5px 20px 5px;
+}
+
+.versiculo {
+    margin: 30px 20px 30px;
+}
+
+.referenciaBiblica {
+    color: #50c878;
+    margin-top: 5px;
+}
+
+.titulos {
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    color: #50c878;
+    font-size: 1.4em;
+}
+
+.nombrePadres {
+    margin: 15px 0 15px;
+}
+
+.nombres {
+    margin: 5px;
+}
+
+.subtituloPadres {
+    font-weight: bold;
+}
+
+.sectionFecha {
+    padding: 0 30px 0;
+    text-align: center;
+    margin: 5px 20px 0px;
+}
+
+.imgAnillos {
+    display: block;
+    margin: 0 auto;
+}
+
+.fechaBoda {
+    margin-bottom: 40px;
+}
+
+.imgFechaBoda {
+    width: 100%;
+}
+
+.botonAgendar {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #a7d8be;
+    padding: 8px 16px;
+    border-radius: 30px;
+    background-color: white;
+    color: #50c878;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative; 
+    padding-left: 40px; 
+    height: 40px; 
+    box-sizing: border-box;
+}
+
+.iconoCalendario {
+    width: 45px; 
+    height: 45px; 
+    border: 2px solid #a7d8be;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #50c878;
+    position: absolute; 
+    left: -10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: white; 
+    z-index: 1;
+}
+
+.textoBoton {
+    position: relative; 
+    z-index: 0; 
+    padding-left: 10px; 
+}
+
+.contadorBoda {
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedorContador {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: auto;  
+}
+
+.contenedorContador div {
+    background-color: white;
+    border: 2px solid #a7d8be;
+    border-radius: 10px;
+    padding: 10px 15px;
+    min-width: 60px;
+    color: #50c878;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.textoIglesia {
+    padding: 10px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #50c878;
+}
+
+.section p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.date {
+    font-size: 1.4em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.photoPlaceholder {
+    margin-top: 40px;
+    padding: 50px;
+    border: 2px dashed #ccc;
+    border-radius: 15px;
+    color: #aaa;
+    font-style: italic;
+}
+
+footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 0.9em;
+    color: #666;
+}
